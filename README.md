@@ -1,61 +1,34 @@
-# 📄 Doc2PDF
+# Doc2PDF
 
-**Doc2PDF** est une application graphique simple et rapide pour convertir des fichiers **Word (.docx)** en **PDF** tout en conservant la mise en page d’origine.
-
-Développée avec Python et LibreOffice, elle fonctionne **sans Microsoft Word**, **sans Adobe**, et offre une expérience fidèle, minimaliste et gratuite.
+Bienvenue dans **Doc2PDF** ! Une application Python/Tkinter avec interface Windows classique, conçue pour convertir vos fichiers `.docx` en `.pdf` tout en conservant la mise en page originale.  
+Elle repose sur LibreOffice pour une conversion fiable, sans dépendances payantes.
 
 ---
 
 ## 🚀 Fonctionnalités
 
-- Interface graphique simple (Tkinter)
-- Style Windows natif (boutons `vista`)
-- Conversion en **1 clic**
-- Conservation de :
-  - Mise en page
-  - Images
-  - Tableaux
-  - Styles de texte
-- Génération automatique du fichier `.pdf` dans le même dossier que le `.docx`
+- Conversion directe `.docx` → `.pdf`
+- Interface graphique Windows simple et épurée
+- Aucune modification du contenu ou du style original
+- Fichier PDF généré dans le même dossier que le `.docx`
+- Détection automatique du fichier sélectionné
+- Messages d’erreur et de succès clairs
 
 ---
 
-## 🖼️ Aperçu
+## 🖥️ Interface
 
-<img src="https://user-images.githubusercontent.com/your-image.png" alt="aperçu de l'application" width="450" />
+- Thème **Vista** via `ttk.Style` pour un style Windows natif
+- Champ d'entrée pour le chemin du fichier
+- Boutons standards : **Parcourir** et **Générer le PDF**
+- Mise en page compacte et fonctionnelle (550×200)
 
 ---
 
-## 📦 Installation
+## 🛠️ Installation
 
-### 1. Cloner le dépôt
+1. Clonez le dépôt :
 
-```bash
-git clone https://github.com/H4CK3R854/Doc2PDF.git
-```
-
-
-✅ Prérequis
-Windows (10/11)
-
-Python 3.8+
-
-LibreOffice installé
-
-🛠️ Personnalisation
-Tu peux facilement :
-
-Modifier l'apparence de l'interface
-
-Ajouter un logo
-
-Intégrer la conversion par lot de fichiers
-
-Choisir un dossier de sortie personnalisé
-
-📖 Licence
-Ce projet est distribué sous licence MIT — utilisation libre.
-
-👤 Auteur
-Développé par H4CK3R854
-🔗 Dépôt : https://github.com/H4CK3R854/Doc2PDF
+   ```bash
+   git clone https://github.com/H4CK3R854/Doc2PDF.git
+   cd Doc2PDF
